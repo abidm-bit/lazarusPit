@@ -1,9 +1,8 @@
 package July14;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
+import java.util.function.BiFunction;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -33,11 +32,17 @@ public class SalmonNotSalman {
         System.out.println(answer);
 
         System.out.println();
+        // factorial using streams
+        //               starting point, number
         int x = IntStream.rangeClosed(1,6).reduce(1, (a,b)->a*b);
         System.out.println(x);
 
+        System.out.println();
 
-
+        int[]arr2 = {8429,1221,29293,43913,1492};
+        Random random = new Random();
+        Supplier<Integer> supplier = () -> random.nextInt(arr2.length);
+       for(int i=1;i<5;i++){ System.out.println(arr2[supplier.get()]);}
     }
 
 
