@@ -19,7 +19,7 @@ public class SumElements {
         return sum;
     }
 
-    static int summ2(ArrayList<Integer> arr){
+    static int sum2(ArrayList<Integer> arr){
         return arr.stream().mapToInt(Integer::intValue).sum();
     }
 
