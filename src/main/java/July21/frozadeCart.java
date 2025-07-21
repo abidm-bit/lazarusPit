@@ -1,0 +1,18 @@
+package July21;
+
+class frozadeCart {
+
+ enum HAAGENDAAZ {
+  CHOCOLATE, ALMOND_CHOCOLATE
+ }
+
+ enum BENNJERRYS{
+  ICE_CREAM_SANDWICH, STRAWBERRY
+ }
+
+ enum FROZADE{
+  STRAWBERRY_DAQUIRI,LEMONADE
+ }
+
+
+}
