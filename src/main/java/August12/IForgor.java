@@ -52,8 +52,24 @@ public class IForgor {
         supplyCount.put("pens",11);
         supplyCount.put("markers",7);
         supplyCount.put("thumb tacks",91);
+
         System.out.println(supplyCount);
+
+        System.out.println();
+
         System.out.println(supplyCount.entrySet());
+
+        System.out.println();
+
+        for(String s: supplyCount.keySet()){
+            System.out.println(s);
+        }
+
+        System.out.println();
+
+        for(Integer c: supplyCount.values()){
+            System.out.println(c);
+        }
 
 
 
