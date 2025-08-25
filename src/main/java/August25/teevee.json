@@ -6,13 +6,21 @@
   ],
   "cartoon network": [
     {"showTitle": "Kids Next Door"},
-    {"showTitle": "Johnny Test"}
+    {"showTitle": "Johnny Test"},
+    {"showTitle": "Scooby-Doo"}
   ],
   "nickelodeon": [
+    {"showTitle": "Fairly Oddparents"},
     {"showTitle": "Ned's Declassified School Survival Guide"},
-    {"showTitle": ""},
-    {"showTitle": ""}
+    {"showTitle": "Avatar: The Last Airbender"},
+    {"showTitle": "Adventures of Jimmy Neutron"},
+    {"showTitle": "Danny Phantom"}
+
+  ],
+  "ABC": [
+    {"showTitle": "Xiaolin Showdown"},
+    {"showTitle": "Power Rangers: Dino Thunder"},
+    {"showTitle": "Power Rangers: SPD"},
+    {"showTitle": "Teen Titans"}
   ]
-
-
 }
