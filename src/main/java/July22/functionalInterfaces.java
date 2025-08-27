@@ -27,10 +27,17 @@ public class functionalInterfaces {
         System.out.println(add.apply(2, 3));  // Output: 5
     */
 
+        // Add 2 numbers
+        // BiFunction<Integer, Integer, Integer> add = (a, b) -> a + b;
+        BiFunction<Integer, Integer, Integer> add = Integer::sum;
+        System.out.println(add.apply(2, 3));  // Output: 5
+
         BiFunction<Integer, Integer, Integer> multiply = (a, b) -> a * b;
         System.out.println(multiply.apply(2, 3));  // Output: 6
 
-
+//        BiFunction<Integer,Integer,Double> raiseToPower = (a,b)->Math.pow(a,b);
+        BiFunction<Integer,Integer,Double> raiseToPower = Math::pow;
+        System.out.println(raiseToPower.apply(5,2));
 
 
     }
