@@ -1,0 +1,11 @@
+[
+  {"name": "Visual Studio Code", "type": "IDE", "publisher": "Microsoft"},
+  {"name": "Chrome", "type": "Browser & ELT", "publisher": "Google"},
+  {"name": "Postman", "type": "API development", "publisher": "Postman"},
+  {"name": "Final Cut Pro", "type": "Video editing ", "publisher": "Apple"},
+  {"name": "Dbeaver", "type": "Database management", "publisher": "DBeaver Corp"},
+  {"name": "ThinkOrSwim", "type": "Trading", "publisher": "Schwab"},
+  {"name": "OneNote", "type": "Productivity & Notes", "publisher": "Microsoft"},
+  {"name": "Adobe Zii", "type": "Software crack & crypto mining malware", "publisher": "Zii Team"},
+  {"name": "", "type": "", "publisher": ""}
+]
