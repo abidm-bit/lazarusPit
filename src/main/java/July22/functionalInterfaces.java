@@ -40,6 +40,11 @@ public class functionalInterfaces {
         System.out.println(raiseToPower.apply(5,2));
 
 
+        Predicate<String> vowelCheck = input -> input.matches(".*[aeiouAEIOU].*");
+        System.out.println(vowelCheck.test("winrar"));
+        System.out.println(vowelCheck.test("Old McDonald"));
+        System.out.println(vowelCheck.test("wow"));
+
     }
 
 
