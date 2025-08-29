@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<shoes>
+
+    <shoe brand="Nike">
+        <model>Foamposites</model>
+        <trendingYear>2009</trendingYear>
+    </shoe>
+
+    <shoe brand="Jordan">
+        <model>Retro Cool Grey 11</model>
+        <trendingYear>2010</trendingYear>
+    </shoe>
+
+    <shoe brand="Jordan">
+        <model>Retro Military 4</model>
+        <trendingYear>2011</trendingYear>
+    </shoe>
+
+    <shoe brand="Nike">
+        <model>KD3</model>
+        <trendingYear>2012</trendingYear>
+    </shoe>
+
+    <shoe brand="Nike">
+        <model>Roshe Run</model>
+        <trendingYear>2013</trendingYear>
+    </shoe>
+
+    <shoe brand="Adidas">
+        <model>Yeezys 3000</model>
+        <trendingYear>2015</trendingYear>
+    </shoe>
+
+    <shoe brand="Crocs">
+        <model>Sports mode</model>
+        <trendingYear>2023</trendingYear>
+    </shoe>
+
+    <shoe brand="">
+        <model></model>
+        <trendingYear></trendingYear>
+    </shoe>
+
+</shoes>
