@@ -1,0 +1,23 @@
+[
+
+  {"class": "class extends a single class, extends multiple interfaces"},
+
+  {"interface": "interface extends interface",
+    "purpose": "blueprint for classes, abstract methods"},
+
+  {"abstract class": "can extend, can't create an object",
+    "purpose": "abstract & concrete methods"},
+
+  {"type": "Single",
+    "purpose": "A parent class extends attributes to a child class"},
+
+  {"type": "Multilevel",
+    "purpose": "A grandparent class extends attributes to a parent class which extends attributes to a child class"},
+
+  {"type": "Hierarchical",
+    "purpose": "A top level class extends attributes to multiple classes below"},
+
+  {"type": "Multiple",
+    "purpose": "Multiple child classes extend a single class"}
+
+]
