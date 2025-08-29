@@ -18,6 +18,6 @@
     "purpose": "A top level class extends attributes to multiple classes below"},
 
   {"type": "Multiple",
-    "purpose": "Multiple child classes extend a single class"}
+    "purpose": "class extends class, implements interfaces"}
 
 ]
