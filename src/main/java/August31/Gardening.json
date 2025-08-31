@@ -1,0 +1,17 @@
+{
+  "supplies":
+  {
+    "containers": ["2 gallon fabric pots","3 gallon plastic pots","0.25 gallon clay pots"],
+    "medium": ["coco coir, vermiculite, hydro, perlite"],
+    "pest control": ["spinosad","sticky traps"],
+    "nutrients": ["Green Green","Dr. Earth's Dry Amendments","General Hydroponics","Jack's"]
+  },
+  "plants":
+  {
+    "fruits": ["strawberries"],
+    "flowers": ["roses","iceland poppies","peonies"],
+    "house plants": ["cascading pothos","bamboo"],
+    "vegetables": ["cucumbers","squash","spinach","tomatoes"]
+  },
+  "seasons": ["spring","summer"]
+}
