@@ -4,7 +4,8 @@ public class EmbroideryMachine {
 
     public static void main(String[] args) {
 
-// Creating an instance per thread , 2 instances = 2 threads
+// Creating an object to represent a thread
+        // 2 objects = 2 threads
 MultiThreadThing multiThreadThing1 = new MultiThreadThing();
 MultiThreadThing multiThreadThing2 = new MultiThreadThing();
 

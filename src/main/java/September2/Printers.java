@@ -1,13 +1,15 @@
-package September2v1;
+package September2;
 
 public class Printers {
     public static void main(String[] args) {
 
         System.out.println("Printing in fast draft, so this won't be in order");
+
     for(int i=1;i<=3;i++){
         for(int e =1 ; e<=7; e++){
             Printer printer = new Printer(i,e);
             printer.start();
+            // works independently at once, no guarantee which thread will run
         }
     }
 

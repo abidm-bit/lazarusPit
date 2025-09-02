@@ -1,4 +1,4 @@
-package September2v1;
+package September2;
 
 public class Sequential {
 
