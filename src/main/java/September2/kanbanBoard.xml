@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<board>
+
+
+    <ticket concept = "Stack and Heap">
+        <area>Java </area>
+        <task> Watch first 10 minutes and note screenshots</task>
+        <status> To Do</status>
+    </ticket>
+
+    <ticket concept = "Multithreading">
+        <area>Java </area>
+        <task> Write notes</task>
+        <status> In Progress </status>
+        <comments>
+        [
+            Watched Coding with John's 10 minute video,
+             Watched 20 minutes of FreeCodeCamp's video,
+             3 packages with multithreading examples
+        ]
+        </comments>
+    </ticket>
+
+    <ticket concept = "Generics">
+        <area> Java </area>
+        <task> Review notes and create 2 examples</task>
+        <status> To Do</status>
+    </ticket>
+
+    <ticket concept = "JWT, Sessions, Cookies, OAuth">
+        <area> API Authentication</area>
+        <task> Finish ByteByteGo video and write notes</task>
+        <status> In Progress</status>
+    </ticket>
+
+</board>
+
