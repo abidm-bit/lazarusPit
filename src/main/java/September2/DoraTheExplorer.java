@@ -1,9 +1,6 @@
 package September2;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class DoraTheExplorer {
@@ -56,7 +53,23 @@ public class DoraTheExplorer {
             System.out.println(order.next());
         }
 
+        System.out.println();
 
+        Deque<Integer> ios = new ArrayDeque<>();
+        ios.add(6);
+        ios.add(7); // major
+        ios.add(8);
+        ios.add(9);
+        ios.add(17);
+        ios.add(25); // major
+        for(Integer vz:ios){
+            System.out.print(vz+" ");
+        }
+        ios.removeFirst();
+        System.out.println();
+        for(Integer vz:ios){
+            System.out.print(vz + " ");
+        }
 
 
 
