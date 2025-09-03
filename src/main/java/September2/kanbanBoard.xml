@@ -26,7 +26,7 @@
         <task> Created 2 examples</task>
         <status> Done </status>
         <task2> Check if arrays || lists are sorted </task2>
-        <status> In progress </status>
+        <status> Done </status>
     </ticket>
 
     <ticket concept = "JWT, Sessions, Cookies, OAuth">
