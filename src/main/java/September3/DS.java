@@ -9,8 +9,9 @@ public class DS {
         char c = 'w';
         int a = 3;
         long nileRiver = 18000000;
-        double moneyLong = 5E107;
-        System.out.println(b + " " + c+ " " + a + " " + nileRiver + " " + moneyLong);
+        double moneyLong = 5.25e7;
+        System.out.println(b + " " + c+ " " + a + " " + nileRiver );
+        System.out.println(moneyLong);
     }
 
     static void abstractObjects(){
