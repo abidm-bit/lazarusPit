@@ -23,8 +23,10 @@
 
     <ticket concept = "Generics">
         <area> Java </area>
-        <task> Review notes and create 2 examples</task>
-        <status> To Do</status>
+        <task> Created 2 examples</task>
+        <status> Done </status>
+        <task2> Check if arrays || lists are sorted </task2>
+        <status> In progress </status>
     </ticket>
 
     <ticket concept = "JWT, Sessions, Cookies, OAuth">
