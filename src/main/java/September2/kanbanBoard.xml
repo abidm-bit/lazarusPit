@@ -4,13 +4,13 @@
 
     <ticket concept = "Stack and Heap">
         <area>Java </area>
-        <task> ii so boom, i watched a video n the explanation differs from what chatgpt is telling me</task>
+        <task> i watched a video n the explanation differs from what chatgpt is telling me</task>
         <status> Blocked</status>
     </ticket>
 
     <ticket concept = "Multithreading">
         <area>Java </area>
-        <task> Write notes</task>
+        <task> Write notes, continue FreeCodeCamp's video</task>
         <status> In Progress </status>
         <comments>
         [
@@ -31,8 +31,8 @@
 
     <ticket concept = "JWT, Sessions, Cookies, OAuth">
         <area> API Authentication</area>
-        <task> Finish ByteByteGo video and write notes</task>
-        <status> In Progress</status>
+        <task> Write notes</task>
+        <status> Done</status>
     </ticket>
 
 </board>
