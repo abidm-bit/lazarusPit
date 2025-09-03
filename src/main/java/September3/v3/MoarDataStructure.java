@@ -6,13 +6,13 @@ public class MoarDataStructure {
 
     public static void main(String[] args) {
         Linear linear = new Linear();
-        //    linear.fixedMultiItem();                  // Array
+            linear.fixedMultiItem();                  // Array
 
         Dynamic dynamic = new Dynamic();
-        //        dynamic.ListArray();                  // ArrayList
-        //            dynamic.ListLinked();             // LinkedList
-        //                dynamic.BakeACake();          // Stack
-        //                      dynamic.gameplay();     // Queue
+                dynamic.ListArray();                  // ArrayList
+                    dynamic.ListLinked();             // LinkedList
+                        dynamic.BakeACake();          // Stack
+                              dynamic.gameplay();     // Queue
 
     }
 }
