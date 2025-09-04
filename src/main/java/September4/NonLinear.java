@@ -68,19 +68,16 @@ class Unique{
     */
 
     void uniqueItems(){
+
         String [] d1 = {"LCG","KS","LCG","HZ","PLT","KS","PLT","SUR"};
         HashSet<String> sz = new HashSet<>(List.of(d1));
         System.out.println(sz);
         System.out.println(sz.contains("HZ"));    // truuu
         System.out.println(sz.contains("SUR"));   // truuu
+
     }
 
 
 }
 
 
-class Peah{
-    /*
-        Heap
-    */
-}
