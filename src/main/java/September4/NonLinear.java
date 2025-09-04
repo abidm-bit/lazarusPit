@@ -5,7 +5,8 @@ import java.util.HashMap;
 public class NonLinear {
     public static void main(String[] args) {
         Dora dora = new Dora();
-        dora.whereOnTheMap();
+        dora.whereOnTheMap(); // HashMap
+
     }
 }
 
@@ -16,6 +17,8 @@ class Dora{
         Store data in key value pairs , Two data types
         Doesn't maintain insertion order, stores values in LIFO
         so the latest value is stored for a duplicate key
+        O(1) to access an element by Key
+        O(n) to iterate thru
     */
 
     void whereOnTheMap(){
@@ -41,6 +44,13 @@ class Dora{
 
         System.out.println(cardGraded.entrySet()); // as an array
 
+        System.out.println();
+
+        HashMap<Integer,String> employeeId = new HashMap<>();
+        employeeId.put(204,"Messer O'Reilly");
+        employeeId.put(205,"Aay Ayron");
+        employeeId.put(280,"Oshack Hensy");
+        System.out.println(employeeId.get(205)); // "Aay Ayron"
     }
 
 }
@@ -49,7 +59,7 @@ class Dora{
 
 class Unique{
      /*
-        HashSet
+        HashSets store unique items only
     */
 }
 
