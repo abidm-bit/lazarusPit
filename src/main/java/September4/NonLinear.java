@@ -1,11 +1,15 @@
 package September4;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
 
 public class NonLinear {
     public static void main(String[] args) {
         Dora dora = new Dora();
         dora.whereOnTheMap(); // HashMap
+        Unique unique = new Unique();
+        unique.uniqueItems();   // HashSet
 
     }
 }
@@ -60,7 +64,18 @@ class Dora{
 class Unique{
      /*
         HashSets store unique items only
+        O(1) to check if the Set contains an element  using .contains(element)
     */
+
+    void uniqueItems(){
+        String [] d1 = {"LCG","KS","LCG","HZ","PLT","KS","PLT","SUR"};
+        HashSet<String> sz = new HashSet<>(List.of(d1));
+        System.out.println(sz);
+        System.out.println(sz.contains("HZ"));    // truuu
+        System.out.println(sz.contains("SUR"));   // truuu
+    }
+
+
 }
 
 
