@@ -9,20 +9,6 @@ public class identifyVowelPlaces {
     // aeiou
     // String to lower case
 
-    // dexter
-
-//    static void ivp(String input){
-//        input = input.toLowerCase();
-//        HashMap<Character,Integer> answer = new HashMap<>();
-//        for(int i=0;i<input.length();i++){
-//            if(input.charAt(i)=='a'||input.charAt(i)=='e'|| input.charAt(i)=='i'||input.charAt(i)=='o'|| input.charAt(i)=='u'){
-//                answer.put(input.charAt(i),i);
-//            }
-//        }
-//        System.out.println(answer.entrySet());
-//    }
-
-
     //big o: space O(n) , time O(n)
     static void ivp(String input){
         input = input.toLowerCase();
