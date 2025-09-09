@@ -9,11 +9,13 @@ public class DragonLady implements Runnable {
 
     @Override
     public void run() {
+        // if you put up a UAV, the audio is:
         if(fellowPlayers==1){
             System.out.println("Your UAV is in the Air");
         }
+        // if you put up a UAV first, & others on ur team call in additional UAVs, then the audio changes:
         else {
-            System.out.println("Friendly UAV is in the Sky , called in by ally " + fellowPlayers);
+            System.out.println("Friendly spy plane inbound , called in by player " + fellowPlayers);
         }
         try {
             Thread.sleep(5000);
