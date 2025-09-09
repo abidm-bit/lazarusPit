@@ -16,7 +16,7 @@ public class OldMacDonald {
         System.out.println(answer);
     }
 
-    // not good because of the 2nd occurrence
+    //  removing this method, the 2nd occurrence overwrites the 1st occurrence
 //    static void vowelIndicesM2(String input){
 //        input=input.toLowerCase();
 //        HashMap<Character,Integer> answer = new HashMap<>();
