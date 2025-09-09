@@ -25,11 +25,38 @@ public class DragonLady implements Runnable {
     }
 
 }
+
+class DragonLady2 implements Runnable {
+
+    private int fellowPlayers;
+    public DragonLady2(int friendly){
+        this.fellowPlayers=friendly;
+    }
+
+    @Override
+    public void run() {
+        if(fellowPlayers==1){
+            System.out.println("Your UAV is in the Air");
+        }
+        else if(fellowPlayers%2!=0) {
+            {System.out.println("Enemy spy plane, lookout, called in by player " + fellowPlayers);}
+        }
+        else {
+            System.out.println("Friendly spy plane inbound , called in by player " + fellowPlayers);
+        }
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException ignored) {
+        }
+
+    }
+
+}
 class AirSpace {
     public static void main(String[] args) {
-       for(int i=1;i<=5;i++){
-           DragonLady dragonLady = new DragonLady(i);
-           Thread thread = new Thread(dragonLady);
+       for(int i=1;i<=11;i++){
+           DragonLady2 dragonLady2 = new DragonLady2(i);
+           Thread thread = new Thread(dragonLady2);
            thread.start();
        }
 
