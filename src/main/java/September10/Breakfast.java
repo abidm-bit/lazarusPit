@@ -19,7 +19,7 @@ class Dunkin extends BusName implements Breakfast{
         return super.name() + " Dunkin Donuts :";
     }
 
-    // implementing the interface's properties & setting the
+    // implementing the interface's properties & setting the values
     @Override
     public String food() {
         return "Everything Bagel";
@@ -63,7 +63,7 @@ class Mcdees extends BusName implements Breakfast{
 
 
 
-class motd{
+class fmotd{
     public static void main(String[] args) {
         new Dunkin();
         System.out.println();
