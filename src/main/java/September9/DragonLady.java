@@ -29,8 +29,8 @@ public class DragonLady implements Runnable {
 class DragonLady2 implements Runnable {
 
     private int fellowPlayers;
-    public DragonLady2(int friendly){
-        this.fellowPlayers=friendly;
+    public DragonLady2(int otherPlayers){
+        this.fellowPlayers=otherPlayers;
     }
 
     @Override
@@ -39,7 +39,7 @@ class DragonLady2 implements Runnable {
             System.out.println("Your UAV is in the Air");
         }
         else if(fellowPlayers%2!=0) {
-            {System.out.println("Enemy spy plane, lookout, called in by player " + fellowPlayers);}
+            {System.out.println("Lookout, enemy spy plane , called in by player " + fellowPlayers);}
         }
         else {
             System.out.println("Friendly spy plane inbound , called in by player " + fellowPlayers);
