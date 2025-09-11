@@ -36,7 +36,7 @@ class Art{
 
 }
 
-public class Wednesday {
+public class OverLoadedConstructors {
 
     public static void main(String[] args) {
 
