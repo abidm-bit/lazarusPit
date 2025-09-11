@@ -1,8 +1,6 @@
 package September11;
 
 
-import java.util.Objects;
-
 enum draw{
     LINE_ART,
     GRAFFITI,
@@ -25,12 +23,12 @@ class Art{
     }
 
     Art(boolean digitalArt,String artType){
-       if(digitalArt && Objects.equals(artType, draw.GRAFFITI.name()))
-       { System.out.println("I'm drawing " + artType + " in " + mediums.PIXELMATOR.name());}
+       if(digitalArt && artType.equals(draw.GRAFFITI.name()))
+       { System.out.println("I'm writing " + draw.GRAFFITI.name() + " in " + mediums.PIXELMATOR.name());}
        else if (digitalArt && artType.equals(draw.GRAPHIC_DESIGN.name())) {
            System.out.println("I'm designing graphics using " + mediums.PIXELMATOR.name());
        } else {
-           System.out.println("I'm writing " + artType + " in " +  mediums.PIXELMATOR.name());
+           System.out.println("I'm drawing " + artType + " in " +  mediums.PIXELMATOR.name());
        }
     }
 
@@ -57,6 +55,10 @@ public class OverLoadedConstructors {
             System.out.println();
 
             new Art(true,draw.GRAPHIC_DESIGN.name());
+
+            System.out.println();
+
+            new Art(draw.GRAFFITI.name(),mediums.PAPER.name());
     }
 
 }
